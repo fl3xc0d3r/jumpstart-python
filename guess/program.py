@@ -9,7 +9,7 @@ def greeting():
     return name
 
 def ask_choice():
-    choice = input("Its between 0 and 100, your choice:")
+    choice = input("\nChoose a number between 0 and 100:")
     return int(choice)
 
 def eval_choice(name, choice, number):
@@ -23,7 +23,7 @@ def eval_choice(name, choice, number):
     elif choice < number:
         print ('Sorry {1}, close, but your choice {0} was a little low'.format(choice, name))
     else:
-        print("Congratulations {1}, {0} is my guess!".format(choice,name))
+        print("\nCongratulations {1}, {0} was my choice!".format(choice,name))
         result = 1
 
     return result
