@@ -9,7 +9,7 @@ def greeting():
     return name
 
 def ask_choice():
-    choice = input("Its been 0 and 100, your choice:")
+    choice = input("Its between 0 and 100, your choice:")
     return int(choice)
 
 def eval_choice(name, choice, number):
