@@ -1,15 +1,11 @@
 import datetime
 
-def greeting():
-    print('')
-    print('-------------------------------------')
-    print('    CHECK DAYS TILL YOUR BIRTHDAY    ')
-    print('-------------------------------------')
-    print("\nPress Ctrl-C to exit")
-    name = input("Your name :")
-    year = input("\nYear you were born[YYYY] :")
-    month = input("Month you were born[Jan,Feb,Mar,etc.] :")
-    day = input("Day you were born [1-31] :")
+def greeting(): print('') print('-------------------------------------') print('
+CHECK DAYS TILL YOUR BIRTHDAY    ')
+print('-------------------------------------') print("\nPress Ctrl-C to exit")
+name = input("Your name :") year = input("\nYear you were born[YYYY] :") month =
+input("Month you were born[Jan,Feb,Mar,etc.] :") day = input("Day you were born
+[1-31] :")
 
     return name, fix_input(year, month, day)
 
