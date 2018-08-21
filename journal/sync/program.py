@@ -11,5 +11,10 @@ def get_choice():
 	choice = input("(L)ist entries, (A)dd an entry, (Q)uit :")
 	return choice.lower()
 
+if __name__ == "__main__":
+    greeting()
+
+    
+
 
 
